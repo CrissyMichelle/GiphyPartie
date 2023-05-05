@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-wideth, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Giphy Party!</title>
 </head>
@@ -12,11 +12,13 @@
   <main>
     <form id="searchForm">
       <label for="search">type in your giphyAPI call!</label>
-      <input type"text" id="search" />
+      <input type"text" id="search" placeholder='Enter search term'>
       <button id="btnSearch">Get gif!</button>
+      <button id="deleteBtn">Remove all gifs</button>
     </form>
   </main>
-<img src="" alt=""  id="gif">
+  <div id="gifList">
+  </div>
 <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 <script src="https://unpkg.com/axios/dist/axios.js"></script>
 <script src="app.js"></script>
