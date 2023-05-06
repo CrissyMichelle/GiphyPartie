@@ -1,4 +1,3 @@
-console.log("Let's get this party started!");
 let apiKey = "K5Z7Isog7oI0Et7L0pcOTbYCTrBUkM36";
 const form = document.querySelector('#searchForm');
 const input = document.querySelector('#search')
@@ -12,8 +11,8 @@ search.addEventListener("click", ev => {
 
 })
 remove.addEventListener("click", ev => {
-    console.log("Party's over?");
-})
+});
+
 async function consolationGig() {
     const res = await axios.get(`https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&limit=1&offset=0&rating=g&lang=en&q=umhello`);
     const img = document.querySelector('#gif');
