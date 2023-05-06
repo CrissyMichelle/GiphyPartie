@@ -15,7 +15,7 @@ body {
 
 main {
     position: absolute;
-    top: 6%;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -37,7 +37,7 @@ input {
 
 div {
     position: absolute;
-    top: 18%;
+    top: 125px;
 }
 
 button {
